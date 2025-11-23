@@ -4,12 +4,11 @@
 
 **Algorithm Translation Platform**
 
-一个现代化的算法题目翻译工具，专为竞赛编程设计
+一个现代化的PDF格式算法题目翻译工具，专为竞赛编程设计
 
 [![Vue 3](https://img.shields.io/badge/Vue-3.5+-brightgreen.svg)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-blue.svg)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.1+-purple.svg)](https://vitejs.dev/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [功能特性](#-功能特性) • [快速开始](#-快速开始) • [使用指南](#-使用指南) • [技术栈](#-技术栈) • [项目结构](#-项目结构)
 
@@ -30,7 +29,6 @@
 - [配置说明](#-配置说明)
 - [常见问题](#-常见问题)
 - [贡献指南](#-贡献指南)
-- [许可证](#-许可证)
 
 ---
 
