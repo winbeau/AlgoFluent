@@ -148,7 +148,7 @@ onMounted(() => {
             </svg>
           </div>
           <h1 class="font-bold text-xl tracking-tight text-slate-800 dark:text-white">
-            OJ Translator
+            AlgoFluent
             <span class="text-blue-600 dark:text-blue-400 text-sm font-normal ml-2">Powered by DeepSeek</span>
           </h1>
         </div>
