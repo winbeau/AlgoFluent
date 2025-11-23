@@ -1,0 +1,42 @@
+/* MathJax 容器样式 */
+mjx-container {
+  color: #1e293b !important;
+}
+
+.dark mjx-container {
+  color: #e5e7eb !important;
+}
+
+/* 加载动画样式 */
+.loader {
+  border: 3px solid #cbd5e1;
+  border-top: 3px solid #3b82f6;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  animation: spin 1s linear infinite;
+}
+
+.dark .loader {
+  border-color: #1e293b;
+  border-top-color: #3b82f6;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Canvas 渲染优化 - 高质量平滑渲染 */
+canvas {
+  image-rendering: auto;
+  image-rendering: -webkit-optimize-contrast;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}

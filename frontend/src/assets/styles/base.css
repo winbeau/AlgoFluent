@@ -1,0 +1,41 @@
+/* 字体导入 */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;700&display=swap');
+
+/* 全局基础样式 */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background-color: #f8fafc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 等宽字体 */
+.font-mono,
+.markdown-body code,
+pre,
+code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}

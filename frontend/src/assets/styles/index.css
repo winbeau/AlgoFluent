@@ -1,0 +1,5 @@
+/* OJTrans 样式入口文件 */
+@import './base.css';
+@import './buttons.css';
+@import './markdown.css';
+@import './utilities.css';
