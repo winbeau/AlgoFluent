@@ -18,8 +18,19 @@ const emit = defineEmits<{
         v-model="apiKey"
         type="password"
         placeholder="sk-..."
-        class="w-full bg-slate-50 border border-slate-300 dark:bg-slate-900 dark:border-slate-700 dark:text-white rounded p-3 focus:outline-none focus:border-blue-500 mb-4"
+        class="w-full bg-slate-50 border border-slate-300 dark:bg-slate-900 dark:border-slate-700 dark:text-white rounded p-3 focus:outline-none focus:border-blue-500 mb-2"
       />
+      <div class="mb-4 text-sm text-slate-600 dark:text-slate-400">
+        获取 API Key:
+        <a
+          href="https://platform.deepseek.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 underline"
+        >
+          https://platform.deepseek.com
+        </a>
+      </div>
       <div class="flex justify-end gap-3">
         <button
           class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded font-medium disabled:opacity-60"
